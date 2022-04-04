@@ -1,0 +1,210 @@
+body{
+	margin:0;
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+.header{
+	background-image: url(images/background.png);
+	background-position: center;
+	height: 100vh;
+	margin-bottom: 63px;
+}
+
+
+
+
+
+.topheader p, li{
+	color: white;
+
+}
+
+
+.topheader p{
+	padding-top: 20px;
+	padding-left: 20px;
+	font-weight: bold;
+	font-family: 'Acme', sans-serif;
+	display: inline-block;
+
+}
+
+.header ul{
+	float: right;
+}
+
+li{
+	display: inline-block;
+	padding: 5px 10px;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+.border{
+	background-color: white;
+	color: purple;
+	border:2px solid purple;
+	border-radius: 10px;
+
+}
+
+.border:hover{
+	background-color: purple;
+	color: white;
+}
+
+.centerheader{
+	text-align:center;
+	color: white;
+	margin-top: 35vh; 
+}
+
+
+button{
+	background-color: purple;
+	color: white;
+	border:2px solid purple;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+
+.white{
+	background-color: white;
+	min-height: 200px;
+}
+
+.container{
+	width: 80%;
+	margin:0 auto;
+
+}
+
+
+p{
+	color: white;
+}
+
+.del{
+	width: 33.333%;
+	margin: 0 auto;
+	float: left;
+	margin-top: 40px;
+	
+
+}
+
+.card{
+	background-color: #2651a8;
+	height: 300px;
+	text-align:center;
+	margin: 20px;
+	border-radius: 10px;
+	padding: 30px 10px;
+}
+
+.del img{
+	width: 60px;
+}
+
+.footer{
+	background-color:  #1f0537;
+	min-height: 300px;
+	color: white;
+	margin-top: 50px;
+	clear: both;
+
+}
+
+
+
+
+.levo{
+	padding-top: 30px;
+	min-height: 300px;
+	float: left;
+	width: 47%;
+	margin-right: 10px;
+}
+.desno{
+	padding-top: 30px;
+	min-height: 300px;
+	width: 47%;
+	float: left;
+	margin-left: 10px
+}
+
+input{
+	width: 50%;
+	padding: 13px 0px;
+	border-radius: 8px;
+	margin: 10px;
+}
+textarea{
+	width: 100%;
+	
+	border-radius: 8px;
+	padding-bottom: 100px;
+	margin: 10px;
+}
+
+input[type=submit]{
+	border: none;
+	width: 35%;
+	list-style: none;
+	border:2 solid purple;
+	color: white;
+	background-color: purple;
+	float:right;
+	margin-top: 0px;
+	margin-right: 0px;
+}
+
+.copy{
+	text-align:center;
+}
+
+.copy h4{
+	padding: 63px;
+	margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 996px){
+	.del{
+		width: 49%;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.del{
+		width: 100%;
+	}
+
+	.levo, .desno{
+		width: 100%;
+		margin-right: 0px;
+		margin-left: 0px;
+
+	}
+	textarea{
+		padding: 10px;
+		margin: 0px;
+		margin-bottom: 10px;
+		padding: 50px 0px;
+	}
+	input{
+		width: 100%;
+		margin: 0px;
+		margin-bottom: 10px;
+		padding: 20px 0px;
+	}
+	input[type=submit]{
+		width: 100%;
+		margin: 0px;
+		margin-bottom: 10px;
+
+	}
+	.hide{
+		display: none;
+	}
+
+}
